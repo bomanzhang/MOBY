@@ -20,43 +20,16 @@ nav {
     padding: 0 !important;
     margin: 0 !important;
   }
-  .menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .menu li {
-    margin: 0 10px;
-  }
-  
+
   .menu h1 {
+    position: fixed;
     top: -2px !important;
+    bottom: 0;
     padding: 0 !important;
     margin: 0 !important;
+    right: 10px;
   }
-  .menu a {
-    color: #6B8681;
-    text-decoration: none;
-  }
-  
-  .menu a:hover {
-    text-decoration: underline;
-  }
-  
-  .menu li:last-child {
-    margin-right: 0;
-  }
-  
-  .menu li:last-child a {
-    background-color: #fff;
-    padding: 8px 16px;
-    border-radius: 4px;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-
+ 
 .header-logo-image {
     height: 30px !important;
 }
@@ -285,12 +258,12 @@ summary {
 }
 
 canvas {
+    background-color: linear-gradient(to top, #6B8681,#F9F9F7) !important;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -99;
     /* display: inline-block; */
 }
 
@@ -1580,9 +1553,9 @@ label {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: auto !important;
+    width: 300px !important;
     height: auto;
-    max-width: 300% !important
+    max-width: 100% !important
 }
 
 .device-mockup {
@@ -1627,14 +1600,13 @@ label {
 
 .feature-extended-image {
     position: relative;
-    margin-bottom: 32px
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .feature-extended-image img,
 .feature-extended-image svg {
     width: 100%;
-    max-width: 296px;
-    height: auto;
     margin-left: auto;
     margin-right: auto;
     overflow: visible
@@ -1820,7 +1792,7 @@ main {
 }
 
 .site-footer-bottom a {
-    color: white;
+    color: none;
     text-decoration: none
 }
 
@@ -1833,7 +1805,7 @@ main {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 48px;
+    padding-top: 0px;
     padding-bottom: 48px;
     position: relative
 }
@@ -1846,7 +1818,7 @@ main {
     width: 100%;
     display: block;
     height: 1px;
-    background: white;
+    background: none;
 }
 
 .footer-brand,
@@ -1889,7 +1861,7 @@ main {
 
     .site-footer-inner {
         justify-content: space-between;
-        padding-top: 64px;
+        padding-top: 0px;
         padding-bottom: 64px
     }
 
