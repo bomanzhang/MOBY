@@ -1,5 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200;400;500;600;700;800;900&display=swap');
 
+nav {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    background-color: none;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .logo h1 {
+    position: fixed;
+    top: -2px !important;
+    bottom: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin: 0 10px;
+  }
+  
+  .menu h1 {
+    top: -2px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .menu a {
+    color: #6B8681;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu li:last-child a {
+    background-color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
 .header-logo-image {
     height: 30px !important;
 }
@@ -561,12 +618,13 @@ h6,
     margin-top: 24px;
     margin-bottom: 4px
 }
-
+/* bodytext */
 p {
     font-family: 'Figtree', sans-serif;
     font-weight: 500;
     margin-top: 0;
-    margin-bottom: 24px
+    margin-bottom: 24px;
+    color: black;
 }
 
 dfn,
@@ -1290,7 +1348,7 @@ label {
 }
 
 .site-header {
-    padding: 24px 0;
+    padding: 0px 0;
     position: absolute;
     top: 0;
     left: 0;
@@ -1300,7 +1358,7 @@ label {
 
 .site-header-inner {
     position: relative;
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
     align-items: center
 }
