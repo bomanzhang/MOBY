@@ -11,7 +11,8 @@ html {
 }
 
 body {
-    margin: 0
+    margin: 0;
+    background-color: white;
 }
 
 article,
@@ -24,6 +25,7 @@ section {
 }
 
 h1 {
+    color: #6B8681 !important;
     font-size: 2em;
     margin: 0.67em 0
 }
@@ -231,6 +233,7 @@ canvas {
     left: 0;
     width: 100%;
     height: 100%;
+    z-index: -99;
     /* display: inline-block; */
 }
 
@@ -1227,11 +1230,11 @@ label {
 }
 
 .button-primary {
-    background: #137CD0
+    background: #FFB6AF
 }
 
 .button-primary:hover {
-    background: #FFB6AF
+    background: #97B9A4
 }
 
 .button-primary.button-shadow::before {
@@ -1340,7 +1343,7 @@ label {
     bottom: 42%;
     left: 0;
     right: 0;
-    background: #0B0D19;
+    background: #F9F9F7;
     z-index: -2
 }
 
@@ -1429,12 +1432,12 @@ label {
 }
 
 .has-animations.is-loaded .hero .hero-bg {
-    animation: heroBg 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) forwards
+    /* animation: heroBg 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) forwards */
 }
 
 .has-animations.is-loaded .hero::before,
 .has-animations.is-loaded .hero::after {
-    animation: heroFadeIn .6s ease forwards .45s
+    /* animation: heroFadeIn .6s ease forwards .45s */
 }
 
 .has-animations.is-loaded .site-header,
