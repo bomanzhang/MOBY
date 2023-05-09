@@ -366,7 +366,7 @@ button,
 input,
 select,
 textarea {
-    font-family: "Heebo", sans-serif
+    font-family: "Figtree", sans-serif;
 }
 
 a {
@@ -1161,14 +1161,14 @@ label {
 .button {
     display: inline-flex;
     font-size: 14px;
-    letter-spacing: 0px;
+    letter-spacing: 0.5px;
     font-weight: 700;
     line-height: 16px;
     text-decoration: none !important;
     text-transform: uppercase;
     background-color: #fff;
     background: #fff;
-    color: #4234F8 !important;
+    color: #137CD0 !important;
     border: none;
     border-radius: 100px;
     cursor: pointer;
@@ -1227,11 +1227,11 @@ label {
 }
 
 .button-primary {
-    background: #4234F8
+    background: #137CD0
 }
 
 .button-primary:hover {
-    background: #4b3ef8
+    background: #FFB6AF
 }
 
 .button-primary.button-shadow::before {
